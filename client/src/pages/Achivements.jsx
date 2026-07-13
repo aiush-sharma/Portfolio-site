@@ -4,6 +4,7 @@ import certificate1 from "../assets/certificates/backendcertificate.jpg";
 import certificate2 from "../assets/certificates/cybersecurity.jpeg";
 import certificate3 from "../assets/certificates/frontendcertificate.jpeg";
 import training from "../assets/certificates/training.jpg";
+import certificate4 from "../assets/certificates/lakshyarambha.png";
 export default function Achievements() {
   const [activeImg, setActiveImg] = useState(null);
 
@@ -11,28 +12,34 @@ export default function Achievements() {
   const certificates = [
     {
       id: "01",
-      title: "Full-Stack MERN Architecture",
-      issuer: "Verified Credential",
+      title: "MERN Stack Development Certificate",
+      issuer: "Code For Change",
       // Replace these strings with your actual image paths (e.g., '/images/cert1.jpg')
       imgSrc: certificate1,
     },
     {
       id: "02",
-      title: "Advanced React & State Engineering",
-      issuer: "Verified Credential",
+      title: "Cybersecurity Professional Certificate",
+      issuer: "Synthbit",
       imgSrc: certificate2,
     },
     {
       id: "03",
-      title: "Backend Logic & Database Security",
-      issuer: "Verified Credential",
+      title: "React.js Development Certificate",
+      issuer: "Code For Change",
       imgSrc: certificate3,
     },
     {
       id: "04",
-      title: "Backend Logic & Database Security",
-      issuer: "Verified Credential",
+      title: "Full-Stack Technical Training",
+      issuer: "Code For Change",
       imgSrc: training,
+    },
+    {
+      id: "05",
+      title: "Cybersecurity Training Certificate",
+      issuer: "VCSIT Association of Nepal",
+      imgSrc: certificate4,
     },
   ];
 
